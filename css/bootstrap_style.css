@@ -115,6 +115,8 @@ strong {
 
 small {
   font-size: 80%; }
+medsm {
+  font-size: 90%; }
 
 sub,
 sup {
@@ -380,6 +382,10 @@ small,
   font-size: 80%;
   font-weight: 400; }
 
+medsm,
+.medsm {
+  font-size: 90%;
+  font-weight: 400; }
 mark,
 .mark {
   padding: 0.2em;

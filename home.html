@@ -1,8 +1,47 @@
 <div class="card rounded-lg shadow">
     <div class="card-body d-flex flex-column animated fadeIn faster">
-        <h1 class="card-title text-center">Hangman</h1>
-        <p class="text-muted text-center">A simple JavaScript game</p>
-        <img src="img/noose.svg" class="img-fluid mx-auto my-auto" style="width: 40%;" alt="">
+            <div class="lightbox" id="lightbox-1">
+                <h2 class="card-title text-center">Help Jack escape!</h2>
+                <p class="text-muted text-center small">
+                Guess the Trinbago themed word each round before all 8 lives are lost.
+                <br>
+                Incorrect guesses flip letter tiles red and cost 1 life.
+                <br>
+                Correct guesses flip letter tiles green.
+                <br>
+                <strong>Doh get yuh Jack Hang before you can guess the word!</strong>
+                <br>
+                Share your score with your friends and flex that Wordstack!
+                </p>
+                <a class="lightbox__close" href="#">X</a>
+            </div>
+            <div class="lightbox" id="lightbox-2">
+                <h2 class="card-title text-center">About</h2>
+                <p class="text-muted text-center">
+                    Game by <a href="https://linktr.ee/Noveck" class="btn-link" target="_blank">Noveck J. Gowandan
+                </p>
+                <p class="text-muted text-center small">
+                    <a href="https://www.buymeacoffee.com/noveck" class="btn-link" target="_blank"> ☕ Buy me a Coffee?</a>
+                </p>
+                <p class="text-muted text-center small">
+                    Based on the original game by <a href="https://github.com/v-mec" class="btn-link" target="_blank">Viktor Mec.</a>
+                    <br>
+                    Additional credits to:
+                    <br>
+                    <a href="https://codepen.io/malahovks" class="btn-link" target="_blank">Kirill Malakhov</a>
+                    <br>
+                    <a href="https://codepen.io/Garyrae" class="btn-link" target="_blank">Gary Rae</a> 
+                    <br>
+                    <a href="https://codepen.io/tonyvincent" class="btn-link" target="_blank">Tony Vincent</a> 
+                </p>
+                <a class="lightbox__close" href="#">X</a>
+            </div>
+        <h1 class="card-title text-center">Hang Jack!</h1>
+        <p class="text-muted text-center">A simple hangman game, with a Trinbago twist.</p>
+        <p class="text-muted text-center"><a href="#lightbox-1" rel="lightbox">Help</a> | 
+        <a href="#lightbox-2" rel="lightbox">About</a></p>
+        <img src="img/noose.svg" class="img-fluid mx-auto my-auto" style="width: 50%;" alt="">
         <button type="button" class="btn btn-primary w-100 mt-auto rounded-pill" id="playBtn">Play</button>
+        
     </div>
 </div>

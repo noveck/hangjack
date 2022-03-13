@@ -125,7 +125,6 @@ function log(){
 $(document).ready(function main() {
     $('.container-fluid').load('./home.html', function () {
         var score = 0;
-        var wordc = 0;
         var randHistory = [];
         $('#playBtn').click(function game() {
             $('.container-fluid').load('./game.html', function () {
@@ -156,8 +155,7 @@ $(document).ready(function main() {
                             $('.container-fluid').load('./game-over.html', function () { 
                                 $('#correctWord').text(word);
                                 $('#finalScore').text(score);
-                                $('#wCount').text(wordc);
-                                $('#fsmsg').text("🇹🇹 HangJack Final Score: " + score + " | Final Wordstack: " + wordc + "🏆");
+                                $('#fsmsg').text("🇹🇹 HangJack Final Score: " + score + "🏆");
                                 $('#home').click(function () {
                                     main();
                                 });
@@ -180,14 +178,12 @@ $(document).ready(function main() {
                         });
                         if (guess.indexOf('_') == -1) {
                             score += (hp + 1) * 10;
-                            wordc += 1;
                             setTimeout(function () {
                                 $('.container-fluid').load('./success.html', function () {
                                     var x = Math.floor(r_text.length * Math.random());
                                     let rmsg = r_text[x] ;
                                     $('#rmsg').text(rmsg);
                                     $('#curScore').text(score);
-                                    $('#wCount').text(wordc);
                                     $('#next').click(function () {
                                         game();
                                     })

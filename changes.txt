@@ -1,0 +1,29 @@
+Changed game name
+Changed bg colour and behaviour index
+Added an array of random messages for successful rounds in game.js and success.html
+Added css for modal window, edited home.html to include tips with a super simple modal.
+Got a placeholder svg for Jack with Flag
+Added share score functionality implemented in game.js
+Smaller text for modals
+Second modal on home page for cred/buy me a coffee smaller text.
+Credit page content
+Current score on success page
+Custom Dictionary
+Custom Jack success messages
+How many times jack saved in this game? Wordstack implemented in success page, game over and code added to game.js
+Custom artwork - stickman, national flag (built on boxy-svg.com), using CC0 art from svgrepo.com
+
+TODO
+
+Tweak background animation?
+
+Default sys call share function. Consider a css alert.
+
+
+
+Wishlist
+Custom fail messages?
+Seasonal Wordlists?
+
+Known Bugs
+Designed for portrait mode, but large words > 7 characters may require landscape mode on smaller mobile devices.
