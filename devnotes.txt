@@ -1,3 +1,5 @@
+
+DONE
 Changed game name
 Changed bg colour and behaviour index
 Added an array of random messages for successful rounds in game.js and success.html
@@ -14,16 +16,14 @@ How many times jack saved in this game? Wordstack implemented in success page, g
 Custom artwork - stickman, national flag (built on boxy-svg.com), using CC0 art from svgrepo.com
 
 TODO
-
 Tweak background animation?
-
 Default sys call share function. Consider a css alert.
-
-
 
 Wishlist
 Custom fail messages?
 Seasonal Wordlists?
 
+
 Known Bugs
-Designed for portrait mode, but large words > 7 characters may require landscape mode on smaller mobile devices.
+Designed for portrait mode, but large words > 8 characters may require landscape mode on smaller mobile devices.
+Share score alert behaves differently on various browsers and operating systems. No issues to date, but chrome on iPhone brings up keyboard for some reason.
