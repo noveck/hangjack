@@ -22,6 +22,7 @@ Default sys call share function. Consider a css alert.
 Wishlist
 Custom fail messages?
 Seasonal Wordlists?
+Map keyboard to js keys?
 
 
 Known Bugs
