@@ -43,7 +43,7 @@ var data =
     "nah",
     "nowherian",
     "obzokee",
-    "peleau",
+    "pelau",
     "planass",
     "roti",
     "soca",
