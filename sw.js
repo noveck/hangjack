@@ -14,10 +14,10 @@ self.addEventListener('install', function (e) {
                 'node_modules/jquery/dist/jquery.min.js',
                 'node_modules/@fortawesome/fontawesome-free/js/all.min.js',
                 'js/game.js',
-                'js/words.json',
+                'js/ttwords.json',
                 'img/noose.svg',
-                'img/icon512.png',
-                'img/icon192.png',
+                'img/hjicon512.png',
+                'img/hjicon192.png',
                 'manifest.webmanifest',
                 'https://fonts.googleapis.com/css?family=Comfortaa:400,700&display=swap',
 
