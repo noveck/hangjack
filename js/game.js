@@ -144,7 +144,7 @@ $(document).ready(function main() {
         $('#playBtn').click(function game() {
             $('.container-fluid').load('./game.html', function () {
                 do {
-                    var rand = Math.floor(Math.random() * 50);
+                    var rand = Math.floor(Math.random() * 71);
                 } while (randHistory.indexOf(rand) != -1);
                 randHistory.push(rand);
                 word = data[rand].toUpperCase();
