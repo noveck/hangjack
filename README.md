@@ -2,6 +2,8 @@ Web based Game
 JS/CSS/HTML
 
 Wordlist is very unique to Trinidad and Tobago, it was designed for that lexicon.
+Play here: https://noveck.github.io/hangjack
+
 
 Game forked from https://github.com/v-mec/hangman
 
